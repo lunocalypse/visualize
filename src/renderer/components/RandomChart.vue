@@ -1,7 +1,7 @@
 <template>
   <div class="small">
     <line-chart :chart-data="datacollection"></line-chart>
-    <button @click="fillData()">Randomize</button>
+    <button @click="fillData()" class="btn btn-primary">Randomize</button>
   </div>
 </template>
 
@@ -27,11 +27,11 @@
           datasets: [
             {
               label: 'Data One',
-              backgroundColor: '#f87979',
+              backgroundColor: 'rgba( 83, 65, 214, 0.664 )',
               data: [this.getRandomInt(), this.getRandomInt()]
             }, {
               label: 'Data One',
-              backgroundColor: '#f87979',
+              backgroundColor: '#01fd98',
               data: [this.getRandomInt(), this.getRandomInt()]
             }
           ]
@@ -44,7 +44,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   .small {
     max-width: 600px;
     margin:  150px auto;
