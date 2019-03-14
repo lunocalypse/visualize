@@ -1,0 +1,15 @@
+[{
+  config: {
+    user: {
+      name: "Julia",
+      login: "Hazel",
+      password: "Hazel123",
+      avatarURL: "url"
+    },
+    database: {
+      src: "",
+      collections: []
+    },
+    
+  }
+}]

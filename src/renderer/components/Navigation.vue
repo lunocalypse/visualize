@@ -18,13 +18,10 @@ navigation in app
   
 -->
 <template>
+  <nav>Navigation</nav>
 </template>
 <script>
   export default {
-    name: 'Navbar'
+    name: 'Navigation'
   }
 </script>
-<style lang='scss'>
-  .side-nav {}
-
-</style>
