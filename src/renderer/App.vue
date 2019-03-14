@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="columns">
+  <div id="app">
   działa
   </div>
 </template>
